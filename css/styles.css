@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  
+
+  body {
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    margin: 0px auto;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+
+  a {
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 100px;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif !important;
+ } 
+  
+ 
+  .topography h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  .topography p {
+    font-size: smaller;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .topography {
+
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid white;
+    
+  }
+  .color {
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid white;
+  }
+
+  .buttons {
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid white;
+  }
+
+  .shadows {
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid white;
+  }
+
+ 
+
+.box {
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: 1px solid white;
+  clear: both;
+}
+
+.color1 {
+  background-color: #F34E4E;
+}
+
+.color2 {
+  background-color: #FFF6EA;
+}
+
+.color3 {
+  background-color: #7BB9FA;
+}
+
+.color4 {
+  background-color: #D0D0D0;
+}
+
+.color5 {
+  background-color: #282828;
+}
+
+.shadows1 {
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.1);
+}
+
+.shadows2 {
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.2);
+}
+
+.shadows3 {
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.3);
+}
+
+.shadows4 {
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.shadows5 {
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.5);
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+.buttons {
+  padding-left: 20px;
+  color: black;
+}
+
+.button1 {
+  color: white;
+  background-color: #F34E4E;
+  box-shadow: 0px 1px 2px 3px rgba(20, 20, 20, 0.2);
+}
+
+.button2 {
+  background-color: #F34E4E;
+  text-decoration: underline;
+  color: blue;
+  box-shadow: 0px 1px 2px 3px rgba(20, 20, 20, 0.3);
+  cursor: pointer;
+}
+
+.button3{
+  color: white;
+  background-color: #F34E4E;
+  box-shadow: 0px 1px 2px 3px rgba(20, 20, 20, 0.3);
+  cursor: pointer;
+}
+
+
+.button3:active {
+  color: white;
+  background-color: #F34E4E;
+  box-shadow: 0px 0px;
+  margin-top: 0.1px;
+}
+ 
